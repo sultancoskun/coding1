@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>JavaScript Arrays </h2>
+    <p id = "demo" > </p>
+    <p id = "demo2" > </p>
+
+    <script>
+
+        //filter
+
+     const fruits = ['strawberry','apple','banana',"mango","pineapple","pear","grape","melon","watermelon","cherry"];
+    
+     const result = fruits.filter(fruits => fruits.length > 6);
+     document.getElementById("demo").innerHTML = result ;
+    
+     console.log (result);
+
+        //reverse
+
+     const reversed = result.reverse();
+
+     
+
+     document.getElementById("demo2").innerHTML = reversed ;
+
+     console.log('reversed:', reversed);
+
+
+     </script>
+
+
+</body>
+
+</html>
