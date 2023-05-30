@@ -1,0 +1,21 @@
+body {
+    background-color:bisque
+}
+
+#title {
+    text-decoration: wavy;
+    font-family: Arial
+}
+
+#subtitle {
+    font-weight: bold
+}
+
+#author {
+
+    font-style: italic
+}
+
+#teaser {
+    font-weight: Lighter
+}
