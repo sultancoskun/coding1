@@ -2,21 +2,31 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="final.css">
+  <style>
+  </style>
 </head>
-<body id = "body">
-  
-  <div id="timer-circle">
+<body id="body">
+  <h1 id="memory-card-heading">MEMORY CARD GAME</h1>
+  <p id="instructions">"Find the right paw to match the cats!"</p>
+
+  <div id="score-timer-container">
     <div id="timer-number">00:00</div>
+    <div id="score-number">Score: 0</div>
   </div>
 
-  <div id="score-container">
-    <div id="score-heading">Score</div>
-    <div id="score-number">0</div>
-    </div>
-  </div>
- 
   <div id="grid" class="grid"></div>
-  <button id="restart-button">Restart</button>
+
+  <div id="win-screen" class="hidden">
+    <h2>Congratulations!</h2>
+    <p>Your score: <span id="final-score"></span></p>
+    <p>Time taken: <span id="final-time"></span></p>
+    <button id="play-again-button">Play Again</button>
+  </div>
+  
+
+  <button id="restart-button">
+    <img src="images/restart.png" alt="Restart Game">
+  </button>
 
   <script src="final.js"></script>
 </body>
